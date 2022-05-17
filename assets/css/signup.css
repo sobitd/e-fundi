@@ -2,9 +2,14 @@ body{
     padding: 0;
     margin: 0;
 }
-.container{
-    display: flex;
-}
+
 .internal{
+    padding-left: 120;
     display: inline-block;
 }
+
+.container{
+    display: block;
+    
+}
+

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
     font-family: poppins,actor,adamina;
-
 }
 
 /* --------------------------------------------start navigation section ----------------------------------------- */
@@ -173,4 +175,28 @@ body{
 }
 .titleAboutUs{
     color: #f66a1b;
+}
+
+/* section 3 */
+.OurTeam{
+margin-left: 20rem;
+margin-top: 6rem;
+
+}
+.peopleAboutUs{
+    border-radius: 6rem;
+    margin-left: 4rem;
+}
+.aboutUsImages{
+    display: flex;
+    flex-direction: row;
+}
+.styleAboutImages{
+    margin-left: 3rem;
+    background-color: #f66a1b;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.section3background{
+   
 }

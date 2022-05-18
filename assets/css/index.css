@@ -168,4 +168,9 @@ body{
 .AboutUs{
     margin-left: 2rem;
 }
-
+.nav-aboutUs-links{
+    color: #f66a1b;
+}
+.titleAboutUs{
+    color: #f66a1b;
+}

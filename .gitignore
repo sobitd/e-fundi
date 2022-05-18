@@ -1,8 +1,3 @@
 .vscode/
-*test.css/
-*index.html/
-
-
-
-
-
+*test.html
+*index.html

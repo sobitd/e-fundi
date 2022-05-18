@@ -123,6 +123,8 @@ body{
 /* Page 2 About Us Section */
 .mainAboutUs{
     background-color: rgb(238, 234, 234);
+    height: 100vh;
+    width: 100vw;
 }
 .barAboutUs{
     background-color: black;
@@ -151,9 +153,19 @@ body{
 }
 
 /* Section 2 */
+.flexIt{
+    display: flex;
+    flex-direction: row;
+}
 .section2{
     background-color: #d8d6d6;
-    height: 15rem;
-    width: 20rem;
-    margin-top: 5rem;
+    height: 40rem;
+    width:35rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 3rem;
 }
+.AboutUs{
+    margin-left: 2rem;
+}
+

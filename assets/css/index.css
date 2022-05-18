@@ -15,7 +15,7 @@ body{
 .hero{
     /* height: 100vh;
     width: 100%; */
-    background-image: url(../Images/construction1.jpg);
+    background-image: url(../images/construction1.jpg);
     background-size: cover;
     height: 100%;
     opacity: 10% black;
@@ -121,3 +121,33 @@ body{
 }
 
 /* Page 2 About Us Section */
+.mainAboutUs{
+    background-color: rgb(238, 234, 234);
+}
+.barAboutUs{
+    background-color: black;
+    border-radius: 1rem;
+    width: 100vw;
+    height: 3rem;
+}
+.nav-about-us {
+    margin-left: 50rem;
+    padding: 12px;
+
+}
+.nav-about-us a{
+    padding: 5rem;
+    color: #f66a1b;
+    font-weight: bold;
+}
+.nav-items-aboutUs a{
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+.nav-items-aboutUs a{
+    justify-content: space-between;
+
+}
+
+/* Section 2 */

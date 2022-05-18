@@ -1,0 +1,31 @@
+body{
+    background-image: url('../images/image6.jpg');
+    background-repeat: none;
+    background-size: cover;
+
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 400px;
+    border:solid;
+    border-color: white;
+    border-radius: 40px;
+    margin-top: 50px
+    
+}
+.nav ul{
+    display: flex;
+    align-content: space-around;
+    align-items: flex-end;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+

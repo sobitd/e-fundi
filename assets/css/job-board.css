@@ -1,0 +1,17 @@
+body{
+    background-image: url('../images/image6.jpg');
+    background-repeat: none;
+    background-size: cover;
+
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 400px;
+    border: 5px;solid
+    border-radius: 30%;
+    
+}

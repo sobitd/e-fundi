@@ -7,20 +7,16 @@ body{
     display: flex;
     flex-direction: column;
     width: 420px;
-    background: red;
-    padding: 20px;
-}
-#occup {
-    display: ;
+
 }
 
-/* .container{
+
+.container{
     display: flex;
     background: gray;
-    width: 550px;
     padding: 20px 20px 20px 20px;
     border-radius: 20px;  
-}  */
+} 
 
 /* Below line is used for online Google font */
 @import url(http://fonts.googleapis.com/css?family=Raleway);
@@ -30,7 +26,7 @@ body{
 }
 
 div.container{
-width: 900px;
+width: 400px;
 height: 610px;
 margin:35px auto;
 font-family: 'Raleway', sans-serif;

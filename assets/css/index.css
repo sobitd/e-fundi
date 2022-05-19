@@ -180,7 +180,8 @@ body{
 /* section 3 */
 .OurTeam{
 margin-left: 20rem;
-margin-top: 6rem;
+margin-top: 0rem;
+color: #f66a1b;
 
 }
 .peopleAboutUs{
@@ -198,5 +199,25 @@ margin-top: 6rem;
     border-radius: 1rem;
 }
 .section3background{
-   
+
+    background-color: rgb(12, 2, 2);
 }
+
+  .vl{
+      border: dashed #f66a1b;
+      margin-left: 2rem;
+      height: 10rem;
+      width: 40rem;
+      align-items: center;
+  }  
+  h4{
+      color: white;
+      size: 3rem;
+      margin-left: 0.9rem;
+  }
+  .icons{
+      color: white;
+  }
+  .spanAbout{
+      margin-left: 0.9rem;
+  }

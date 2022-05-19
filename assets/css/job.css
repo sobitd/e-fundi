@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 body{
     margin: 0;
     padding: 0;
-    
+    font-family: poppins;
 }
 
 
@@ -106,7 +107,7 @@ body{
 
 .jobber{
 
-    background-color: orange;
+    /* background-color: orange; */
     width: 540;
     padding-left: 120px;
     padding-top: 120px;
@@ -121,19 +122,58 @@ body{
 .categ li{
     list-style: none;
     font-size: 20;
+    padding-left: 19px;
 }
 .loc li{
     list-style: none;
     font-size: 20;
+    padding-left: 19px;
 }
+
+.categ li a{
+    text-decoration: none;
+    color: black;
+}
+
+.jobber h4 span{
+    color: orange;
+}
+.loc li a{
+    text-decoration: none;
+    color: black;
+}
+.retro{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
 .price {
     padding-top: 20;
 }
 
 .jobberleft{
     width: 100%;
-    background-color: rgb(216, 206, 206);
+    /* background-color: rgb(216, 206, 206); */
     flex-direction: column;
+}
+.cont h3{
+    padding-left: 20px;
+}
+.cont span{
+    padding-left: 150;
+}
+.icons p{
+    padding-left: 10px;
+}
+
+.top{
+    padding-left: 150;
+    font-size: 25;
+    font-weight: 800;
+}
+.top span{
+    color: orange;
 }
 
 
@@ -314,6 +354,10 @@ input[type="range"]::-moz-slider-thumb{
 }
 .footerCol ul li{
     list-style: none;
+}
+.footerCol li a{
+    font-size: 20px;
+    color: white;
 }
 .footerCol h4{
     float: right;

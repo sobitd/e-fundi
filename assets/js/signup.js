@@ -121,3 +121,7 @@ function signup(e){
     window.location.href = '../pages/index.html'
 }
 
+
+
+
+

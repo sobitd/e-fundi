@@ -99,6 +99,9 @@ body{
 .nav-color{
  border: solid #f66a1b;
  background-color: #f66a1b;
+ border-radius: 1rem;
+ padding: 0.4rem;
+ box-shadow: hsl(21, 93%, 5%);
 }
 
 }
@@ -120,6 +123,42 @@ body{
 }
 .differText{
     color: #f66a1b;
+}
+/* section 2 of landing Page */
+.whatSayOurClients{
+    background-image: url(/assets/images/pic3.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.titleSay{
+    color: #f66a1b;
+}
+.describeImage{
+    border-radius: 1rem;
+    margin-bottom: 0px;
+}
+.clientName{
+    background-color: #fff;
+    padding: 0.9rem;
+    width: 16rem;
+    border-radius: 1rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.tellUs{
+    background-color: #ebe4e4;
+    width: 16rem;
+    border-radius:1rem;
+}
+.clients{
+    margin-left: 5rem;
+}
+.parapad{
+    padding: 0.9rem;
+    margin-bottom: 0.rem;
+    margin-top: 0.7rem;
+    
 }
 
 /* Page 2 About Us Section */
@@ -220,4 +259,8 @@ color: #f66a1b;
   }
   .spanAbout{
       margin-left: 0.9rem;
+  }
+  .forClients{
+      display: flex;
+      flex-direction: row;
   }

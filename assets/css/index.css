@@ -179,19 +179,19 @@ body{
 
 /* Page 2 About Us Section */
 .mainAboutUs{
-    background-color: rgb(238, 234, 234);
+    background-color: #eeeaea;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
 }
 .barAboutUs{
     background-color: rgb(17, 4, 4);
     border-radius: 1rem;
-    width: 100vw;
+    width: 98vw;
     height: 3rem;
     margin-top: 1rem;
 }
 .nav-about-us {
-    margin-left: 50rem;
+    margin-left: 45rem;
     padding: 12px;
 
 }

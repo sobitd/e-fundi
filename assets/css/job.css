@@ -4,8 +4,103 @@ body{
     
 }
 
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 10% black;
+    background-repeat: none;
+    background-image: url("../images/crane.jpg");
+}
+.navb{
+    padding-top: 0;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    color: white;
+    padding: 15;
+
+}
+.navb ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15;
+
+}
+.navbar ul li a{
+    font-size: 20;
+    font-weight: 700;
+    color: orange;
+}
+.navbared ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15;
+}
+
+.navbared li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
+    
+
+}
+.navb li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
+
+
+}
+.navbar li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none  ;
+}
+.navb a{
+    color: white;
+    text-decoration: none  ;
+}
+.navbared a{
+    color: white;
+    text-decoration: none  ;
+}
+.nav-logo{
+    content: '';
+    flex: 0.95;
+}
+.navLog{
+    content: '';
+    flex: 0.8;
+}
+.navLogo{
+    content: '';
+    flex: 0.95;
+}
+.nav-toggle{
+    display: none;
+}
+.navToggle{
+    display: none;
+}
+
 .jobmaster{
     display: flex;
+    margin-top: 890;
     
 }
 
@@ -13,8 +108,28 @@ body{
 
     background-color: orange;
     width: 540;
+    padding-left: 120px;
+    padding-top: 120px;
 
 }
+.categ h3{
+    font-size: 24;
+}
+.loc h3{
+    font-size: 24;
+}
+.categ li{
+    list-style: none;
+    font-size: 20;
+}
+.loc li{
+    list-style: none;
+    font-size: 20;
+}
+.price {
+    padding-top: 20;
+}
+
 .jobberleft{
     width: 100%;
     background-color: rgb(216, 206, 206);
@@ -71,13 +186,56 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .all .separator{
-    background: red;
+    /* background: red; */
     width: 20px;
     align-items: center;
     justify-content: center;
     font-size: 19px;
     display: flex;
 }
+
+.carosusel{
+    position: relative;
+
+
+}
+
+.selItem{
+    height: 300px;
+    background: gray;
+    padding: 1em;
+
+}
+
+.carolNav{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    /* bottom: 0;
+    left: 0;
+    background-color: orange;
+    text-align: center; */
+}
+.carolbtn{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background: black;
+    margin-bottom: 120px;
+
+}
+.carolbtn carolbtn-selected{
+    background: rgba(255,255,255, 0.2);
+}
+
+
+.selItem selItem-selected{
+    display: block;
+    background: rgba(255,255,255, 0.2);
+}
+
+
 /* 
 
 .slider{
@@ -130,3 +288,47 @@ input[type="range"]::-moz-slider-thumb{
 
 
  */
+
+ #foot{
+    padding: 90;
+    margin-top: 110;
+    background-color: black;
+}
+
+
+/* ul {
+    list-style: none;
+} */
+.footText{
+    color: white;
+    font-size: 50;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;;
+    padding-left: 920;
+    color: white;
+}
+.footerCol ul li a{
+    text-decoration: none;
+}
+.footerCol ul li{
+    list-style: none;
+}
+.footerCol h4{
+    float: right;
+    padding-left: 30;
+}
+.footerCol{
+    text-align: center;
+}
+
+
+.socialIcons a{
+    height: 180;
+    padding: 10;
+    color: white;
+}
+
+
+

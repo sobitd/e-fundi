@@ -8,3 +8,7 @@ rangeInput.forEach(input =>{
 
     });
 });
+
+// document.querySelectorAll(".carousel").forEach(carousel => {
+//     const item = carousel.querySelectorAll(".selItem")
+// })

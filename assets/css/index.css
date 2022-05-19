@@ -227,6 +227,9 @@ body{
     margin-left: 1rem;
     border-radius: 3rem;
 }
+.logo{
+    background-color: #979594;
+}
 .AboutUs{
     margin-left: 2rem;
 }

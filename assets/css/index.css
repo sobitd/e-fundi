@@ -282,6 +282,9 @@ justify-content: space-evenly;
   .socialicons{
       padding-top: 9rem;
   }
+  .socialTable{
+      margin-top: 15rem;
+  }
 
   .TheIcons ul li{
       top: 140rem;
@@ -293,8 +296,15 @@ justify-content: space-evenly;
     
   } 
   .nowTheIcons{
-      margin-top: 15rem;
+      /* margin-top: 15rem; */
   } 
+  .theIcons{
+      display: flex;
+      flex-direction: row;
+  }
+  .socialnames > h4{
+      color: #f66a1b;
+  }
   .iconsWego{
    list-style: none;
   }

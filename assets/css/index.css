@@ -184,10 +184,11 @@ body{
     width: 100vw;
 }
 .barAboutUs{
-    background-color: black;
+    background-color: rgb(17, 4, 4);
     border-radius: 1rem;
     width: 100vw;
     height: 3rem;
+    margin-top: 1rem;
 }
 .nav-about-us {
     margin-left: 50rem;
@@ -233,10 +234,19 @@ body{
 }
 
 /* section 3 */
+.backgroundTeam{
+    background-color: #f66a1b;
+    margin-left: 20rem;
+    margin-right: 40rem;
+    border-radius: 4rem;
+}
 .OurTeam{
 margin-left: 20rem;
 margin-top: 0rem;
-color: #f66a1b;
+color: black;
+justify-content: space-evenly;
+
+
 
 }
 .peopleAboutUs{

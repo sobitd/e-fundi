@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
     <title>Log In</title>
 </head>
 
@@ -17,19 +17,20 @@
         <div class="container-wrapper">
             <h3 class="login-heading"> Welcome</h3>
 
-            <form class="myForm"  method="post" action="#" onsubmit="return validateEmail();">
+            <form class="myForm" id="loginForm" name="login" method="get" action="/" >
                 <div class="input-wrapper">
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="input-wrapper">
-                    <input type="password" name="password" placeholder="Password">
+                    <input id="pass-word" type="password" name="password" placeholder="Password">
                 </div>
+                <div id="error-message"><p></p></div>
                 <button class="signIn-button"> <span class="center-text">Sign In</span></button>
             </form>
         </div>
     </div>
-    <script src="../js/login.js"></script>
+    <script defer src="../assets/js/login.js"></script>
 </body>
 
-</html>
+</html>      

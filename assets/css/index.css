@@ -215,7 +215,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.section2{
+.sectionTwoFlex{
     background-color: #d8d6d6;
     height: 40rem;
     width:35rem;
@@ -274,7 +274,27 @@ justify-content: space-evenly;
       height: 10rem;
       width: 40rem;
       align-items: center;
-  }  
+  }
+  .socialicons{
+      padding-top: 9rem;
+  }
+
+  .TheIcons ul li{
+      top: 140rem;
+  }
+  .socialicons{
+      color: #f66a1b;
+      font-size: 1.8rem;
+      
+    
+  } 
+  .nowTheIcons{
+      margin-top: 15rem;
+  } 
+  .iconsWego{
+   list-style: none;
+  }
+
   h4{
       color: white;
       size: 3rem;

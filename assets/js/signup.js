@@ -120,4 +120,8 @@ function signup(e){
     console.log('users added')
     window.location.href = '../pages/index.html'
 }
-``
+
+
+
+
+

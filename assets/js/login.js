@@ -12,10 +12,10 @@ if (atPosition<1 ||dotPosition<atPosition+2||dotPosition+2>=email.length){
 
 //Function to validate Password
 
-var password = document.myForm.password.value;
+// var password = document.myForm.password.value;
 
-if(password.length<6){
-    alert("Password must be at least 6 characters long.");
-    return false;
-}
+// if(password.length<6){
+//     alert("Password must be at least 6 characters long.");
+//     return false;
+// }
 

@@ -1,21 +1,19 @@
-//Function to validate email 
-function validateEmail(){
-var email = document.myForm.email.value;
-var atPosition =email.indexOf("@");
-var dotPosition = email.lastIndexOf(".");
+//Setting up elements for DOM manipulation
+const email = document.getElementById("email")
+const passWord = document.getElementById("pass-word")
+const errorMessage = document.getElementById("error-message")
+// var form = document.getElementById("loginForm")
 
-if (atPosition<1 ||dotPosition<atPosition+2||dotPosition+2>=email.length){
-    alert("Please enter a valid address \n atPosition:"+atPosition+"\n dotPosition:"+dotPosition);
-    return false;
- }
-}
+ //Event Listener that will prevent Submit button from submitting and run through to check if there are any errors present
 
-//Function to validate Password
+ form.addEventListener("submit", (e) =>{
+     let messages = []
+     if(email.value === '' || email.value == null){
+         messages.push('Email is required')
+     }
 
-// var password = document.myForm.password.value;
-
-// if(password.length<6){
-//     alert("Password must be at least 6 characters long.");
-//     return false;
-// }
-
+     if(messages.length > 0){
+         e.preventDefault()
+         errorElement.innerText = messages.join(",")
+     }
+ })

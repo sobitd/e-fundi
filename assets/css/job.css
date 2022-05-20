@@ -101,7 +101,7 @@ body{
 
 .jobmaster{
     display: flex;
-    margin-top: 890;
+    /* margin-top: 890; */
     
 }
 
@@ -115,9 +115,11 @@ body{
 }
 .categ h3{
     font-size: 24;
+    font-family: sans-serif;
 }
 .loc h3{
     font-size: 24;
+    font-family: sans-serif;
 }
 .categ li{
     list-style: none;
@@ -133,7 +135,9 @@ body{
 .categ li a{
     text-decoration: none;
     color: black;
+    font-family: poppins;
 }
+
 
 .jobber h4 span{
     color: orange;
@@ -141,6 +145,7 @@ body{
 .loc li a{
     text-decoration: none;
     color: black;
+    font-family: poppins;
 }
 .retro{
     font-size: 24px;

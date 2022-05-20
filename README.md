@@ -28,6 +28,7 @@ This is a web app that focuses on creating a platform that will connect fundis a
 * Landing Page(https://user-images.githubusercontent.com/11064884/169465460-4df84d90-4c0a-43db-bd32-8d5346e236a1.png)
 * Login Form(https://user-images.githubusercontent.com/11064884/169457668-a9a76a51-676f-4edc-84eb-1af89ff7bf3a.png)
 * Job Board(https://user-images.githubusercontent.com/11064884/169465322-19d775f7-1b57-4ef8-9d2d-7dd82dee004c.png)
+* LandingPage(https://www.figma.com/file/yJ8nlTg01jKflwTPvuH2JA/Untitled?node-id=0%3A1)
 
 
 

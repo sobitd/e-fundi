@@ -1,15 +1,14 @@
 # e-fundi
-This is a web app that focuses on creating a platform where buyers and sellers of skills converge
-
+This is a web app that focuses on creating a platform that will connect fundis and their clients by enabling clients to post jobs/projects and enable fundis to choose projects they can deliver on.f
 
 1
-## quiz-board
-2
- By Daniel Sobit
-3
-​
-4
-##                          Table of Contents
+## Team
+Byron odhiambo Product Owner
+Daniel Sobit scrum Master
+Alvin Ndung'u Developer
+Daniel Okebiro Developer
+
+##                      Table of Contents
 5
 ​
 6
@@ -31,24 +30,16 @@ This is a web app that focuses on creating a platform where buyers and sellers o
 14
 ##  Description
 15
-    quiz-board web app is  written in HTML,CSS and Javascript. Javascript is used to populate the form inputs where a user is presented with a question and multi choices where they are required to choose the correct answer for the provided choices and a score is shown after.
-16
-    
-17
+    The e-fundi web app is  written in HTML,CSS and Javascript.HTML and CSS have been efectively exploited to create a minimalisric user friendly interface with efficiecy and easier navigation.
+
+
 ## Features
-18
-* Minimal clean design
-19
-* Forms with Multi choice answers
-20
-* Results are displayed immediately after submitting the choices 
-21
-​
-22
-​
-23
-​
-24
+
+User Authentication:Sign Up/Sign In
+User Profile
+Find Projects
+Post Project
+
 ## Requirements
 25
 * Access to a computer or internet-enabled device.
@@ -56,20 +47,14 @@ This is a web app that focuses on creating a platform where buyers and sellers o
 * Access to internet.
 27
 * Web-browser.
-28
-​
-29
-​
-30
-​
-31
+
 ## Technology Used
 32
 * HTML - This technology was used to develop the website structure.
 33
 * CSS  - This was used to style the website's appearance.
 34
-* Javascript - This technology was used to populate the html form and validate choices from the user and give a score.
+* Javascript - Used to enablelog  and also filter fundi rates by prices
 35
 ​
 36
@@ -93,13 +78,13 @@ This is a web app that focuses on creating a platform where buyers and sellers o
 45
 ## Support and Contact Details
 46
-*For any queiries, suggestion or feedback, feel free to engage my audience through email: daniel.sobit@student.moringaschool.com
+*For any queiries, suggestion or feedback, feel free to engage th e-fundi tem through email: daniel.sobit@student.moringaschool.com
 47
 ​
 48
 ## Licence 
 49
-MIT Licence 2022 by Daniel Sobit.
+MIT Licence 2022 by e-fundi team
 50
 ​
 51

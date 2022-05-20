@@ -118,7 +118,7 @@ function signup(e){
     var jsoned = JSON.stringify(users)
     localStorage.setItem(users, jsoned)
     console.log('users added')
-    window.location.href = '../pages/index.html'
+    window.location.href = '../assets/index.html'
 }
 
 

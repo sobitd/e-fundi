@@ -42,7 +42,6 @@ body {
 .input-wrapper, .signIn-button {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
     margin: 0px 20px 8%;
 }
 
@@ -82,4 +81,15 @@ body {
     margin-top: 20px;
     cursor: pointer;
     align-items: center;
+  }
+
+  #errorMessage {
+    color: #cc0033;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 15px;
+    margin: 5px 0 0;
+    padding: 10px;
+    width: 80%;
   }

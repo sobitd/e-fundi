@@ -10,7 +10,7 @@ ul{
     list-style-type: none;
     
 }
-#home{
+#home:hover{
     font-family: 'quicksand',sans-serif;
     padding-left: -300px;
     color: #f2f2fa;
@@ -18,12 +18,12 @@ ul{
     font-size: 20px;
 
 }
-#find{
+#find:hover{
     font-family: 'quicksand',sans-serif;
     color:#F66A1B
     
 }
-#post{
+#post:hover{
     font-family: 'quicksand',sans-serif;
    color: #F66A1B; 
 }

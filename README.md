@@ -9,7 +9,7 @@ This is a web app that focuses on creating a platform that will connect fundis a
 
 ##                      Table of Contents
                            -[Description]
-                           -[Features]
+                           -[Features]![login-page-design]
                            -[Requirements]
                            -[Technologies Used]
                            -[Installation Process]
@@ -18,6 +18,18 @@ This is a web app that focuses on creating a platform that will connect fundis a
                            -[Licence]
 ##  Description
     The e-fundi web app is  written in HTML,CSS and Javascript.HTML and CSS have been efectively exploited to create a minimalisric user friendly interface with efficiecy and easier navigation.
+    
+## Demo and Figma Designs
+  ## Landing Page (https://user-images.githubusercontent.com/11064884/169466191-b2825fa4-ae0a-457c-87d4-f02bb7a75543.png)
+
+  
+
+  ## Figma Designs 
+* Landing Page(https://user-images.githubusercontent.com/11064884/169465460-4df84d90-4c0a-43db-bd32-8d5346e236a1.png)
+* Login Form(https://user-images.githubusercontent.com/11064884/169457668-a9a76a51-676f-4edc-84eb-1af89ff7bf3a.png)
+* Job Board(https://user-images.githubusercontent.com/11064884/169465322-19d775f7-1b57-4ef8-9d2d-7dd82dee004c.png)
+
+
 
 
 ## Features
@@ -39,10 +51,12 @@ This is a web app that focuses on creating a platform that will connect fundis a
 
 
 ## Installation Process
-*Clone from the repository using the command: 
+* Clone from the repository using the command: git@github.com:sobitd/e-fundi.git
+* Unzip the downloaded files in the directory where you will be working from. 
+* Open the index.html file from the directory with a web browser.
 
 ##  Live Link
-*Click the following link to view the live application: 
+*Click the following link to view the live application: https://sobitd.github.io/e-fundi/
 
 
 ## Support and Contact Details:

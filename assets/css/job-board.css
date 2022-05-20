@@ -13,8 +13,7 @@ ul{
 #home:hover{
     font-family: 'quicksand',sans-serif;
     padding-left: -300px;
-    align-self: flex-start;
-    color: #080bee;
+    color: #f2f2fa;
     font-size: larger;
     font-size: 20px;
 
@@ -22,8 +21,10 @@ ul{
 #find:hover{
     font-family: 'quicksand',sans-serif;
     color:#F66A1B
+    
 }
 #post:hover{
+    font-family: 'quicksand',sans-serif;
    color: #F66A1B; 
 }
 .nav{
@@ -57,7 +58,13 @@ ul{
 .nav li{
     padding: 50px;
 }
+.nav ul li a{
+    font-family: 'quicksand',sans-serif;
+    color: #F66A1B;
+    text-decoration: none;
+}
 .heading{
+    font-family: 'quicksand',sans-serif;
     display: flex;
     padding-left: 600px;
     padding-bottom: -600px;

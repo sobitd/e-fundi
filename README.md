@@ -2,10 +2,10 @@
 This is a web app that focuses on creating a platform that will connect fundis and their clients by enabling clients to post jobs/projects and enable fundis to choose projects they can deliver on
 
 ## Team
-Byron odhiambo Product Owner
-Daniel Sobit Scrum Master
-Alvin Ndung'u Developer
-Daniel Okebiro Developer
+*Byron Odhiambo - Product Owner
+*Daniel Sobit - Scrum Master
+*Alvin Ndung'u - Developer
+*Daniel Okebiro - Developer
 
 ##                      Table of Contents
                            -[Description]
